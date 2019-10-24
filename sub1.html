@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.bgimg {
+    border: 0;
+    padding: 0;
+    background-image: url('.lol.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.jb-text {
+        	font-family: 'Helvetica75';
+        font-size: 100px;
+        width: 2000px;
+				font-color: 'White';
+				text-align: center;
+        position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translate( -50%, -50% );
+			}
+#topMenu { height: 40px;  width: 5000px; } #topMenu ul {  list-style-type: none; margin: 0px;  padding: 0px; }
+ #topMenu ul li { color: white; background-color: #2d2d2d;  float: left; line-height: 40px;  vertical-align: middle;  text-align: center; position: relative;  }
+  .menuLink, .submenuLink { text-decoration:none; display: block; width: 200px;  font-size: 14px; font-weight: bold; font-family: "Quicksand", Dotum; }
+   .menuLink { color: white; } .topMenuLi:hover .menuLink { color: red;  background-color: #4d4d4d;}
+    .submenuLink {  color: #2d2d2d;  background-color: white; border: solid 1px black;  margin-top: -1px;}
+     .longLink {
+     width: 300px;  }
+     .submenu { position: absolute; height: 0px; overflow: hidden;  transition: height .2s; -webkit-transition: height .2s;  -moz-transition: height .2s; -o-transition: height .2s; }
+      .topMenuLi:hover .submenu { height: 200px; } .submenuLink:hover { color: red;  background-color: #dddddd;  }
+
+</style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<nav id="topMenu" > <ul> <li class="topMenuLi"> <a class="menuLink" >About</a>
+   <ul class="submenu">
+  <li><a class="submenuLink longLink" href="sub3.html"> 경기 진행 일정 </a></li>
+        </ul>
+       <li>|</li> <li class="topMenuLi"> <a class="menuLink">League Of Legends</a> <ul class="submenu">
+         <li><a class="submenuLink"  href="sub5.html">게임 소개</a></li> <li><a class="submenuLink" href="sub6.html">티어 설명</a></li> </ul>
+      </li>  <li>|</li> <li class="topMenuLi"> <a class="menuLink" href="sub7.html">경기 진행 방식</a> </li>
+
+       <li>|</li> <li class="topMenuLi"> <a class="menuLink">공식 영상</a> <ul class="submenu">
+         <li><a class="submenuLink" href="sub8.html">테마곡</a></li> <li><a class="submenuLink" href="sub9.html">명장면</a></li> <li><a class="submenuLink" href="sub10.html">플레이 인 스테이지</a></li> </ul>
+
+
+      </nav>
+
+<div class="bgimg"></div>
+<div class="jb-text">
+      <p>League Of Legends</p>
+    </div>
+  </div>
+
+  </body>
+</html>
